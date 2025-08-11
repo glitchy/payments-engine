@@ -2,10 +2,7 @@ use std::env;
 use std::fs::File;
 use std::io::{BufReader, BufWriter, Write};
 
-use crate::{
-    engine::PaymentsEngine, 
-    error::Result
-};
+use crate::{engine::PaymentsEngine, error::Result};
 
 mod account;
 mod engine;
